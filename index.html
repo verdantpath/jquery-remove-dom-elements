@@ -1,1 +1,18 @@
 <!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>JQuery Remove DOM Elements</title>
+</head>
+<body>
+<h3>Anchors</h3>
+<a href="#">Anchor Element</a>
+<a href="#">Anchor Element</a>
+<a href="#">Anchor Element</a>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+// removes the first <a> element
+jQuery('a:eq(0)').remove();
+</script>
+</body>
+</html>
